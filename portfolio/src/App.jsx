@@ -1,7 +1,9 @@
 import About from "./components/About"
-import Experience from "./components/Experience"
+import Contacts from "./components/Contacts"
+
 import Landing from "./components/Landing"
 import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
 
 const App = () => {
@@ -12,7 +14,8 @@ const App = () => {
         <Landing />
         <About />
         <Technologies />
-        <Experience />
+        <Projects />
+        <Contacts />
       </div>
     </div>
   )

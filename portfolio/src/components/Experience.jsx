@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "../constants"
+/*import { EXPERIENCES } from "../constants"
 
 const Experience = () => {
   return (
@@ -30,4 +30,4 @@ const Experience = () => {
     
   )
 }
-export default Experience
+export default Experience*/
