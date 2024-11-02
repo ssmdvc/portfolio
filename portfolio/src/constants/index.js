@@ -1,12 +1,14 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import cert1 from "../assets/cert/cert-1.png";
+import cert2 from "../assets/cert/cert-2.png";
 
 
 
-export const LANDING_CONTENT = 'I am enthusiastic and inspiring Front End Developer with a solid foundation in web development principles and a passion for creating intuitive and visually appealing user interfaces. Equipped with hands-on experience through academic projects and internships, I am eager to contribute to a dynamic team and further develop my skills in a professional setting.';
+export const LANDING_CONTENT = 'I am enthusiastic and aspiring Front-End Developer with a basic foundation in web development principles. With a passion for creating intuitive and visually appealing user interfaces. Equipped with hands-on experience through academic projects, I am eager to contribute to a dynamic team and further develop my skills in a professional setting.';
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and aspiring Front-End Developer with a passion for creating efficient and user-friendly web applications. My journey in web development began with a deep curiosity for how things work, and it evolved into deep learning about web softwares where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -43,8 +45,25 @@ export const PROJECTS = [
   },
 ];
 
+export const CERTIFICATE = [
+  {
+    title: "Frontend Fundamentals Bootcamp",
+    image: cert1,
+    description:
+    "The Frontend Fundamentals course covers the core principles of web development, including HTML, CSS, and JavaScript, equipping learners with the skills to create responsive and interactive user interfaces.",
+    sub: "Completed by August 26th, 2024 at One Code Camp Academy",
+  },
+  {
+    title: "Data Analytics Bootcamp",
+    image: cert2,
+    description:
+    "The Data Analytics Fundamentals course introduces essential concepts and techniques for collecting, analyzing, and visualizing data, empowering beginners to make data-driven decisions across various industries.",
+    sub: "Completed by August 26th, 2024 at One Code Camp Academy",
+  },
+];
+
 export const CONTACT = {
-  address: "Manila, PH",
   phoneNo: "+63 915 940 1713",
   email: "shekinahcayco@gmail.com",
+  address: "Manila, PH",
 };

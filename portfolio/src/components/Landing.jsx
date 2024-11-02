@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Landing = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen border-transparent border-neutral-900 pb-4 lg:mb-35">
+    <div className="flex flex-col items-center border-transparent border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
             <div className="w-full text-center lg:text-left">
             <div className="flex flex-col text-center items-center ">
@@ -27,7 +27,7 @@ const Landing = () => {
                 </motion.h1>
                 <motion.span className="my-2 max-w-xl py-6 bg-gradient-to-r from-green-700 via-slate-500
                 to-blue-300 bg-clip-text text-3xl tracking-tight text-transparent">
-                    Frontend Developer
+                 Frontend Web Developer
                 </motion.span>
                 <p className="my-8 max-w-xl py-6 font-medium tracking-wider">
                     {LANDING_CONTENT}

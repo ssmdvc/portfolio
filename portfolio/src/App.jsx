@@ -1,6 +1,6 @@
 import About from "./components/About"
+import Certificates from "./components/Certificates"
 import Contacts from "./components/Contacts"
-
 import Landing from "./components/Landing"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -15,6 +15,7 @@ const App = () => {
         <About />
         <Technologies />
         <Projects />
+        <Certificates />
         <Contacts />
       </div>
     </div>
